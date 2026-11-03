@@ -9,5 +9,42 @@ h1 {
 
 p {
     font-size: 20px;
-    
+    font-family: "Quintessential", serif;
 }
+
+h2 {
+    font-size: 30px;
+    font-family: "Quintessential", serif;
+}
+
+a, li {
+    font-size: 20px;
+    font-family: "Quintessential", serif;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    font-family: "Quintessential", serif;
+    box-shadow: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(78, 118, 238);
+}
+
+/* div {
+    display: none; 
+} */
