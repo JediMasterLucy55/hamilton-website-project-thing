@@ -45,6 +45,27 @@ button:hover {
     background-color: rgb(78, 118, 238);
 }
 
-/* div {
+table {
+    margin: auto;
+    border-spacing: 30px;
+}
+
+#part1 {
     display: none; 
-} */
+}
+
+#part2 {
+    display: none; 
+}
+
+#part3 {
+    display: none; 
+}
+
+#part4 {
+    display: none; 
+}
+
+#part5 {
+    display: none; 
+}
