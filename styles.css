@@ -66,6 +66,6 @@ table {
     display: none; 
 }
 
-#part5 {
-    display: none; 
+td {
+    font-family:'Times New Roman', Times, serif;
 }
