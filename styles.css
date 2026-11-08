@@ -2,8 +2,14 @@ html {
     text-align: center;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 247, 248);
+}
+
 h1 {
-    font-size: 50px;
+    font-size: 45px;
     font-family: "Jim Nightshade", cursive;
 }
 
@@ -21,9 +27,12 @@ a, li {
     font-size: 20px;
     font-family: "Quintessential", serif;
     text-decoration: none;
-    color: black;
     list-style-type: none;
     font-weight: bold;
+}
+
+a:active, a:visited, a:hover, a:link {
+    color: white;
 }
 
 li {
@@ -38,6 +47,7 @@ button {
     color: white;
     font-family: "Quintessential", serif;
     box-shadow: none;
+    border: none;
 }
 
 button:hover {
@@ -68,4 +78,21 @@ table {
 
 .writing {
     font-family:'Times New Roman', Times, serif;
+}
+
+footer {
+    font-family: "Quintessential", serif;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    color: white;
+    height: 50px;
+    position: sticky;
+}
+
+header {
+    background-color: cornflowerblue;
+    color: white;
+    width: 100%;
+    top: 0;
+    position: sticky;
 }
